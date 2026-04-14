@@ -1,0 +1,26 @@
+* { box-sizing: border-box; font-family: sans-serif; }
+body { margin: 0; background: #f4f4f9; display: flex; justify-content: center; }
+
+.admin-container {
+    width: 100%; max-width: 600px; min-height: 100vh; background: white; box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50, #3498db); color: white; padding: 20px; text-align: center;
+}
+
+main { padding: 20px; }
+
+.admin-card {
+    background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; border: 1px solid #eee;
+}
+
+input, textarea {
+    width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;
+}
+
+button {
+    background: #3498db; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; width: 100%;
+}
+
+button:hover { background: #2980b9; }
