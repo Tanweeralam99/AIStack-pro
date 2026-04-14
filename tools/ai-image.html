@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Image Gen</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style> body { background: transparent; height: auto; display: block; padding: 20px; } </style>
+</head>
+<body>
+    <h3 style="margin-bottom: 15px;">Image Generator</h3>
+    <textarea rows="4" placeholder="Enter prompt (e.g. A flying cat in space)"></textarea>
+    <button class="btn-primary" onclick="generate()">Generate Image</button>
+    
+    <div id="output" style="margin-top: 20px; height: 200px; border: 2px dashed gray; border-radius: 10px; display:flex; justify-content:center; align-items:center; color:gray;">
+        Preview Area
+    </div>
+    <script>
+        function generate() {
+            document.getElementById('output').innerHTML = "Generating... (Simulated)";
+            setTimeout(() => {
+                document.getElementById('output').innerHTML = `<img src="https://via.placeholder.com/300" style="max-width:100%; border-radius:10px;">`;
+            }, 1500);
+        }
+    </script>
+</body>
+</html>
