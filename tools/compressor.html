@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compressor</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style> body { background: transparent; height: auto; display: block; padding: 20px; } </style>
+</head>
+<body>
+    <h3 style="margin-bottom: 15px;">Image Compressor</h3>
+    <div class="glass" style="border: 2px dashed #6C63FF; padding: 40px; text-align: center; border-radius: 15px; margin-bottom: 15px;">
+        <p>Click or drag file here</p>
+        <input type="file" style="display:none;" id="file">
+        <button class="btn-primary" style="width:auto; margin-top:10px;" onclick="document.getElementById('file').click()">Select File</button>
+    </div>
+    <button class="btn-primary" style="background: #333;">Compress</button>
+</body>
+</html>
