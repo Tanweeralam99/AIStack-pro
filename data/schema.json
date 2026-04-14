@@ -1,0 +1,43 @@
+{
+  "apps": {
+    "name": "String",
+    "description": "String",
+    "icon": "URL String",
+    "externalLink": "URL String",
+    "courseLink": "URL String",
+    "tag": "String (e.g. 'AI Tool', 'Earning')"
+  },
+  "tools": {
+    "name": "String",
+    "icon": "String (FontAwesome Class)",
+    "toolUrl": "String (Local HTML or External URL for iframe)",
+    "active": "Boolean"
+  },
+  "videos": {
+    "title": "String",
+    "thumbnail": "URL String",
+    "videoLink": "URL String"
+  },
+  "socialLinks": {
+    "platform": "String",
+    "url": "URL String",
+    "icon": "String (FontAwesome Class)"
+  },
+  "notifications": {
+    "title": "String",
+    "message": "String",
+    "timestamp": "Timestamp"
+  },
+  "suggestions": {
+    "text": "String",
+    "timestamp": "Timestamp"
+  },
+  "contributors": {
+    "name": "String",
+    "amount": "Number"
+  },
+  "saved": {
+    "userId": "String",
+    "itemId": "String (App/Tool ID)"
+  }
+}
