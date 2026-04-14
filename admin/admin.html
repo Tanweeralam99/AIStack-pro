@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIStack Pro - Admin</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <header>
+            <h2>Admin Dashboard</h2>
+        </header>
+        
+        <main>
+            <section class="admin-card">
+                <h3>Add New App</h3>
+                <form id="add-app-form">
+                    <input type="text" placeholder="App Name" id="appName" required>
+                    <input type="text" placeholder="Icon URL" id="appIcon" required>
+                    <textarea placeholder="Description" id="appDesc"></textarea>
+                    <button type="submit">Save App</button>
+                </form>
+            </section>
+
+            <section class="admin-card">
+                <h3>Push Notification</h3>
+                <form id="add-notif-form">
+                    <input type="text" placeholder="Title" required>
+                    <textarea placeholder="Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
+        </main>
+    </div>
+    <script type="module" src="admin.js"></script>
+</body>
+</html>
